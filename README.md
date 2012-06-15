@@ -25,3 +25,10 @@ git add README2
 git commit -m "Tu primer commit"
 
 git push origin master
+
+
+
+/////
+git init
+git remote add origin git@github.com:flexeando/html5-boilerplate.git
+git pull origin master
