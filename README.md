@@ -1,4 +1,4 @@
-curso-git
+curso-git en la rama mejorandola
 =========
 
 Una vez que instalas git debes configurarlo:
@@ -17,18 +17,29 @@ cat /.ssh/id_rsa.pub
 Arrancando el proyecto
 
 git init
-
 touch README2
-
 git add README2
-
 git commit -m "Tu primer commit"
-
 git push origin master
 
 
+Clonar un proyecto
 
-/////
 git init
 git remote add origin git@github.com:flexeando/html5-boilerplate.git
 git pull origin master
+
+
+Crear Branches
+
+git branch dev
+git branch mejorandola
+
+git checkout dev
+-Switched to branch 'dev'
+
+
+Subir todos los archivos
+
+git commit add .
+
