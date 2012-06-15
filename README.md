@@ -43,3 +43,6 @@ Subir todos los archivos
 
 git commit add .
 
+Para ver todos los branches
+git branch
+
